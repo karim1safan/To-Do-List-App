@@ -33,11 +33,8 @@ This is a small app that enables you to perform basic __CRUD__ operations:
 - Implement task deadlines with notifications
 - Allow task reordering via drag-and-drop
 
-## Image Demo
-![alt text](image.png)
+## Video Demo:
 
-## Video Demo
-<video width="600" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video]![alt text](image.png)](https://www.youtube.com/watch?v=OyQcgfkDMyU)
+
+Click the image above to watch the demo video.
