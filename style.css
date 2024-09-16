@@ -12,7 +12,7 @@
 }
 .todo-app {
   width: 100%;
-  max-width: 540px;
+  max-width: 90%;
   border-radius: 10px;
   background-color: #fff;
   margin: 100px auto;
@@ -39,6 +39,7 @@
   margin-bottom: 25px;
 }
 .row input {
+  width: 100%;
   flex-grow: 1;
   border: none;
   outline: none;
@@ -46,6 +47,7 @@
   padding: 10px;
 }
 .row button {
+  max-width: 100%;
   border: none;
   outline: none;
   background-color: transparent;
@@ -100,4 +102,10 @@ ul li span {
 }
 ul li span:hover {
   background-color: #edeef0;
+}
+
+@media (max-width: 570px) {
+  .row button {
+    flex-wrap: wrap;
+  }
 }
